@@ -17,7 +17,7 @@
 <script lang="ts">
 import * as Vue from 'vue';
 import { defineComponent, PropType } from 'vue';
-import Client from '@/api/Client';
+import Client from '@ulixee/apps-chromealive-client';
 import IHeroSessionActiveEvent from '@ulixee/apps-chromealive-interfaces/events/IHeroSessionActiveEvent';
 
 export default defineComponent({

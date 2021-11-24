@@ -1,0 +1,10 @@
+{
+  "name": "@ulixee/apps-chromealive-client",
+  "version": "1.5.4",
+  "private": true,
+  "dependencies": {
+    "@ulixee/apps-chromealive-interfaces": "1.5.4",
+    "@ulixee/commons": "1.5.7"
+  },
+  "nohoist": []
+}

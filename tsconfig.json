@@ -32,6 +32,7 @@
     "**/node_modules",
     "apps/chromealive-ui",
     "apps/menubar-ui",
+    "apps/chromealive-client",
     "apps/chromealive-extension",
     "hero",
     "website",

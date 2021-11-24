@@ -1,18 +1,12 @@
 /// <reference types="chrome"/>
 import { onMessagePayload } from './lib/background/BackgroundMessenger';
-import { groupTabs, ungroupTabs, collapseGroup } from './lib/background/TabManagement';
+import * as TabManagement from './lib/background/TabManagement';
 import logDebug from './lib/logDebug';
 import './lib/background/BackgroundListeners';
 
-const RuntimeActions = {
-  groupTabs,
-  ungroupTabs,
-  collapseGroup,
-};
-
 onMessagePayload((payload, sendResponseFn) => {
-  if (RuntimeActions[payload.action]) {
-    const fn = RuntimeActions[payload.action];
+  if (TabManagement[payload.action]) {
+    const fn = TabManagement[payload.action];
     fn(payload)
       .catch(error => {
         if (sendResponseFn) sendResponseFn(error);

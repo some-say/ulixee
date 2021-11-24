@@ -184,7 +184,7 @@
 
 <script lang="ts">
 import * as Vue from 'vue';
-import Client from '@/api/Client';
+import Client from '@ulixee/apps-chromealive-client';
 import Timeline, { ITimelineHoverEvent, ITimelineTick } from '@/components/Timeline.vue';
 import IPageStateUpdatedEvent from '@ulixee/apps-chromealive-interfaces/events/IPageStateUpdatedEvent';
 import * as screenshotCache from '@/utils/screenshotCache';

@@ -26,7 +26,7 @@
 
 <script lang="ts">
 import * as Vue from 'vue';
-import Client from '@/api/Client';
+import Client from '@ulixee/apps-chromealive-client';
 import Live from '@/pages/app/views/Live.vue';
 import PageStateGenerator from '@/pages/app/views/PageStateGenerator.vue';
 import { IBounds } from '@ulixee/apps-chromealive-interfaces/IBounds';

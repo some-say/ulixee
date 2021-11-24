@@ -33,7 +33,7 @@
 
 <script lang="ts">
 import * as Vue from 'vue';
-import Client from '@/api/Client';
+import Client from '@ulixee/apps-chromealive-client';
 import IDataboxUpdatedEvent from '@ulixee/apps-chromealive-interfaces/events/IDataboxUpdatedEvent';
 import humanizeBytes from '@/utils/humanizeBytes';
 import Json from '@/components/Json.vue';

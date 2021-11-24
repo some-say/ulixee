@@ -53,7 +53,7 @@
 
 <script lang="ts">
 import * as Vue from 'vue';
-import Client from '@/api/Client';
+import Client from '@ulixee/apps-chromealive-client';
 import IPageStateUpdatedEvent from '@ulixee/apps-chromealive-interfaces/events/IPageStateUpdatedEvent';
 
 export default Vue.defineComponent({

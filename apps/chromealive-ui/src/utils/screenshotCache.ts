@@ -1,4 +1,4 @@
-import Client from '../api/Client';
+import Client from '@ulixee/apps-chromealive-client';
 
 const cacheBySessionId: { [sessionId: string]: { [timestamp: number]: string } } = {};
 
